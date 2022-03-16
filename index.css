@@ -1,16 +1,16 @@
 @font-face {
     font-family: PopinReg;
-        src: url('css/fonts/Poppins/Poppins-Regular.ttf');
+        src: url('fonts/Poppins/Poppins-Regular.ttf');
 }
 
 @font-face {
     font-family: PopinMed;
-    src: url('css/fonts/Poppins/Poppins-Medium.ttf');
+    src: url('fonts/Poppins/Poppins-Medium.ttf');
 }
 
 @font-face {
     font-family: PopinSBold;
-    src: url('css/fonts/Poppins/Poppins-SemiBold.ttf');
+    src: url('fonts/Poppins/Poppins-SemiBold.ttf');
 }
 html{
     font-size:10px;
@@ -292,4 +292,5 @@ html{
         font-size:8px;
         padding:60px 20px 20px 20px; 
     }
-}
+    } 
+    
