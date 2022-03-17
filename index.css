@@ -275,22 +275,111 @@ html{
 
 .text-content{
      max-width:1429px; 
-     padding:100px 240px 50px 240px; 
-    font-size:30px;
+     padding:10rem 20.4rem 5rem 20.4rem; 
+    font-size:3rem;
     color:#000000;
    
     
 }
 @media screen and (min-width:728px) and (max-width:1024px){
     .text-content{
-    font-size:20px;
-    padding:90px 180px 40px 180px; 
+    font-size:2rem;
+    padding:9rem 10.8rem 4rem  10.0.8rem; 
 }
 }
 @media screen and (min-width:320px) and (max-width:727px){
     .text-content{
         font-size:8px;
-        padding:60px 20px 20px 20px; 
+        padding:6rem 2rem 2rem 2rem; 
     }
     } 
+
+
+
     
+     .value-numbers{
+         width:100%; 
+         height:100%; 
+         /* min-height:200px; */
+        background: linear-gradient(to left,rgba(224,229,232,0),rgba(226,231,232,1),rgba(226,231,232,1),rgba(224,229,232,0)); 
+        
+       
+    }
+    .valuehead{
+        font-family:"Poppins";
+        font-size:5rem;
+        color:#000000;
+    }
+    
+     /* .card{
+        width: 369px;
+       background-color:rgba(110,123,136,0.06)!important;
+         background-color:red;
+        border-color: transparent;
+         box-shadow: #000000;
+        color:#000000; 
+        margin:0rem 0.8rem;
+       
+    }  */
+   
+    .count{
+        font-family: "Poppins";
+        font-size: 6rem;
+        font-weight: 200;
+      
+    }
+    .card-title{
+        font-family: Poppins;
+        font-size: 1.6rem;
+        font-weight: 700;
+       
+    }
+    .count-subtitle{
+        font-family: "Poppins";
+        font-size: 1.7rem;
+        font-weight: 400;
+       
+    }
+
+    @media screen and (min-width:320px) and (max-width:727px){
+      
+        .valuehead{
+            font-size:3rem;
+           
+        }
+         
+    
+    }
+    .vision{
+        font-family:"Poppins";
+        font-size:4.5rem;
+        color:#FFFFFF;
+    }
+    .visionsubtitile{
+        font-family:"Poppins";
+        font-size:2.2rem;
+        color:#FFFFFF;
+
+    }
+ 
+    .mission1{
+        background-color:#242424;
+
+    }
+
+    .mission2{
+        background-color:#000000;
+
+    }
+    @media screen and (min-width:320px) and (max-width:727px){
+        .vision{
+            font-size:2.5rem;
+            
+        }
+        .visionsubtitile{
+            font-size:1.5rem;
+            
+    
+        }
+
+    }
