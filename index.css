@@ -196,6 +196,15 @@ html{
     font-size:1.5rem;
 }
 
+@media (min-width:1400px){
+ .form-container{
+        max-width: 1350px;
+        padding:2rem;
+       
+    } 
+
+}
+
  @media screen and (min-width:728px) and (max-width:1250px){
     .form-container{
         max-width: 1050px;
@@ -271,13 +280,15 @@ html{
 .marketing-text{
      max-width:1962px;
     width:100%;
+    
 }
 
 .text-content{
      max-width:1429px; 
-     padding:10rem 20.4rem 5rem 20.4rem; 
+     padding:10rem 20.4rem 5rem 20.4rem;  
     font-size:3rem;
     color:#000000;
+   
    
     
 }
@@ -298,10 +309,9 @@ html{
 
     
      .value-numbers{
+         max-width:1960px;
          width:100%; 
-         height:100%; 
-         /* min-height:200px; */
-        background: linear-gradient(to left,rgba(224,229,232,0),rgba(226,231,232,1),rgba(226,231,232,1),rgba(224,229,232,0)); 
+         background: linear-gradient(to left,rgba(224,229,232,0),rgba(226,231,232,1),rgba(226,231,232,1),rgba(224,229,232,0)); 
         
        
     }
@@ -347,9 +357,11 @@ html{
             font-size:3rem;
            
         }
+      
          
     
     }
+    
     .vision{
         font-family:"Poppins";
         font-size:4.5rem;
@@ -371,6 +383,8 @@ html{
         background-color:#000000;
 
     }
+   
+
     @media screen and (min-width:320px) and (max-width:727px){
         .vision{
             font-size:2.5rem;
@@ -382,4 +396,351 @@ html{
     
         }
 
+    }
+
+
+    .clientle-section{
+        background-color:rgba(110,123,136,0.06);
+        max-width:1962px;
+        height:600px;
+
+    }
+    .cilenttitle{
+        font-family:"Poppins";
+        font-size:6.1rem;
+
+
+    }
+    .clientsubtitle{
+        font-family:"Poppins";
+        font-size:2.2rem;
+
+    }
+   
+    
+
+ 
+
+ @media (min-width:1400px) {
+    
+    
+    .imgvalue{
+        padding:2.6rem;
+        background-color:white;
+    }
+    .Logo{
+        width:220px;
+        height:140px;
+    }  
+    
+
+
+
 }
+
+@media  (min-width:1200px) and (max-width:1399px){
+    
+    
+    .imgvalue{
+        padding:2rem;
+        background-color:white;
+    }
+    .Logo{
+        width:170px;
+        height:120px;
+    }  
+    
+
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+
+    .imgvalue{
+        padding:1.8rem;
+        background-color:white;
+    }
+    .Logo{
+        width:130px;
+        height:100px;
+    }  
+    
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .imgvalue{
+        padding:1.5rem;
+        background-color:white;
+    }
+    .Logo{
+        width:10rem;
+        height:10rem;
+    }  
+    
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .cilenttitle{
+      font-size:4rem;
+
+
+    }
+    .clientsubtitle{
+        font-family:"Poppins";
+        font-size:1.6rem;
+
+    }
+
+    .imgvalue{
+        padding:1.2rem;
+        background-color:white;
+    }
+    .Logo{
+        width:6rem;
+        height:4rem;
+    }  
+
+
+
+
+}
+
+@media (max-width: 575.98px){
+    .cilenttitle{
+        font-size:2rem;
+  
+  
+      }
+      .clientsubtitle{
+          font-family:"Poppins";
+          font-size:1.2rem;
+  
+      }
+  
+
+    .imgvalue{
+         background-color:white;
+         text-align:center;
+    }
+    .Logo{
+        width:55px;
+        height:35px;
+        text-align:center;
+    }  
+
+}
+
+
+     .google-partner{
+        max-width:1962px; 
+        width:1642px;
+        height:300px;
+        width:100%;
+       padding:5rem; 
+    }
+
+    .certi-head{
+        font-family:"Poppins";
+        font-size:6.1rem;
+
+
+    }
+    .certi-para{
+        font-family:"Poppins";
+        font-size:2rem;
+    }
+   
+   .google-image{
+        width:300px;
+
+    }  
+
+    @media screen and (min-width:728px) and (max-width:1024px){
+        .certi-head{
+           font-size:4.1rem;
+    
+    
+        }
+        
+        .certi-para{
+            font-family:"Poppins";
+            font-size:1.8rem;
+        }
+        .google-partner{
+            padding:1rem;
+        }
+       
+    
+    }
+    @media screen and (min-width:320px) and (max-width:727px){
+       
+        .certi-head{
+            font-size:2rem;
+            text-align:center;
+     
+     
+         }
+         .certi-para{
+            font-size:2rem;
+            text-align:center;
+         }
+         .google-partner{
+            padding:1rem;
+         }
+         .google-image{
+                 width:15rem;
+                
+               
+             
+          
+        }
+     
+     }  
+
+
+
+    
+     .benifts{
+        max-width:1921px;
+        background-color:#F43535;
+    }
+     
+
+
+     .bg-groups{
+         max-width:1962px; 
+         width:100%;
+         background-image: url("./images/bridge.png"); 
+          height:997px; 
+         background-size:cover;
+        
+     }
+     .global{
+         max-width:1629px;
+         color:white;
+         margin:20px;
+         height:760px;
+         background-color:white ;
+
+     }
+     .information{
+         padding:4.2rem;
+     }
+    .sidebar{
+        background-color:#000000;
+        color:white;
+        padding:5.2rem;
+    }
+    .globalpresence{
+        font-family:"Poppins";
+        font-size:6.1rem;
+    }
+    .globalsubtitle{
+        font-family:"Poppins";
+        font-size:2.2rem; 
+    }
+    .office-title {
+        font-family:"Poppins";
+        font-size:2.5rem;
+        color:#000000
+    }
+    .office-subtile{
+        font-family:"Poppins";
+        font-size:1.8rem;
+        color:#000000;
+    }
+    .contact-icons{
+       color:#F43535;
+
+    }
+    .text-contact{
+        font-family:"Poppins";
+        font-size:2.2rem;
+        color:#000000;
+    }
+   
+
+    @media screen and (min-width:767px) and (max-width:1024px){
+
+        .globalpresence{
+           font-size:3.8rem;
+           
+        }
+        .globalsubtitle{
+           font-size:2rem; 
+          
+        }
+        .office-title {
+            font-size:1.8rem;
+           
+           
+        }
+        .office-subtile{
+           font-size:1.3rem;
+          
+           
+        }
+        .contact-icons{
+           color:#F43535;
+    
+        }
+        .text-contact{
+           font-size:1.3rem;
+            
+        }
+        .information{
+            padding:4.2rem;
+        }
+              
+
+
+
+    }
+
+    @media screen and (min-width:320px) and (max-width:766px){
+
+        .globalpresence{
+            font-size:2.1rem;
+         }
+         .globalsubtitle{
+            font-size:1.5rem; 
+         }
+         .office-title {
+             font-size:1.5rem;
+            
+         }
+         .office-subtile{
+            font-size:1rem;
+            
+         }
+         .text-contact{
+            font-size:1rem;
+             
+         }
+         .sidebar{
+           padding:1rem;
+           text-align:center;
+        }
+         .information{
+
+             padding:0.5rem;
+            text-align:center;
+        }
+ 
+ 
+     }
+
+
+
+
+
+
+
+
+
